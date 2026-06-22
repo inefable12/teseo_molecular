@@ -5,6 +5,9 @@ from rdkit.Chem.Draw import rdMolDraw2D
 import py3Dmol
 from stmol import showmol
 
+import streamlit.components.v1 as components
+from rdkit.Chem import Draw
+
 # Configuración de página
 st.set_page_config(page_title="Generador de Macrociclos", layout="wide")
 st.title("🧪 Generador Molecular 3D")
