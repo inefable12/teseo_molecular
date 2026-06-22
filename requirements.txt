@@ -1,4 +1,4 @@
 streamlit
-rdkit
 stmol
 py3Dmol
+rdkit==2024.3.5
